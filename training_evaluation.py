@@ -147,7 +147,7 @@ def preprocess_function(examples, tokenizer):
 def evaluation_metric(mode=1):
     model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
-    test_data = pd.read_csv("test_data.csv")
+    test_data = pd.read_csv("./data/test_data.csv")
     test_dataset = Dataset.from_pandas(test_data)
 
     tokenized_test_data = test_dataset.map(
