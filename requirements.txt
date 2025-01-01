@@ -1,0 +1,7 @@
+pandas
+torch
+transformers
+datasets
+evaluate
+sacrebleu
+nltk
