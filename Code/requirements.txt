@@ -1,0 +1,10 @@
+pandas
+torch
+transformers
+datasets
+evaluate
+sacrebleu
+nltk
+rouge_score
+meteor
+matplotlib
